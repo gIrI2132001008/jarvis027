@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R_LIBRARY</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+<body>
+    <div class="preloader"> 
+        <img class="preloader-icon" src="images/loading (1).gif" alt=""> 
+    </div>
+</body>  
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><i class="fas fa-user-graduate"></i> E-Library </a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#Books">Books</a></li>
+            <li><a href="#contact">contact</a></li>
+            
+        </ul>
+    </nav>
+    <div id="Login" class="fas fa-user-circle"></div> 
+</header>
+<div class="Login-form">
+    <form  method="post" action="#">
+        <h3>Login</h3>
+        <input type="email" name="Username" placeholder="Username"  class="box" required autofocus>
+        <input type="password" name="Password" placeholder="Password" class="box" required autofocus>
+        <p>forget password? <a href="reset-password.html">click here</a></p>
+        <p>don't have an account? <a href="Register-form.html">Register now</a></p>
+        <input type="checkbox" class="check-box"><span>Remember Me</span>
+        <input type="submit" class="btn" value="login">
+        <i class="fas fa-times"></i>
+        <p>Or Sign In Using</p>
+        <div class="social-items">
+        <a class="#"><i class="fa fa-facebook"></i></a>
+        <a class="#"><i class="fa fa-google"></i></a>
+        <a class="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </form>
+</div>
+<section class="home" id="home">
+
+    <h1>Library reva</h1>
+    <a href="#"><button class="btn">get started</button></a>
+    
+    <div class="shape"></div>
+</section>
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about.svg" alt="">
+    </div>
+	<div class="content">
+		<h3>Welcome To Our Library</h3>
+	</div>
+	
+	
+
+</section>
+<section class="Books" id="Books">
+
+    <h1 class="heading">our popular Books</h1>    
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <a href="page1.html"><img src="images/eoe.jfif" alt=""></a>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <a href="east of eden.pdf" class="title">East Of Eden</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <a href="page2.html"><img src="images/attk.jfif" alt=""></a>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <a href="a time to kill.pdf" class="title"> A Time to Kill</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <a href="page3.html"><img src="images/tsar.jfif" alt=""></a>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <a href="the sun also rises.pdf" class="title">The Sun Also Rises</a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="page4.html"><img src="images/bnw.jfif" alt=""></a>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <a href="brave new world.pdf" class="title">Brave New World</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <a href="page4.html"><img src="images/tfios.jfif" alt=""></a>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <a href="the fault in our stars.pdf" class="title">The fault in our stars</a>
+            </div>
+        </div>
+    
+    </div>
+</section>            
+<section class="contact" id="contact">
+
+    <h1 class="heading">contact us</h1>
+    
+    <div class="row">
+    
+        <form action="">
+            <input type="text" placeholder="full name" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <input type="number" placeholder="your number" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+            <input type="submit" class="btn" value="send now">
+        </form>   
+    </div>
+</section>
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">france</a>
+            <a href="#">russia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">books</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> Banglore, india 560042. </p>
+            <p> <i class="fas fa-envelope"></i> Logo_001@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15542.916468565169!2d77.6352927!3d13.1163393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdee225fe28f600f6!2sREVA%20University!5e0!3m2!1sen!2sin!4v1637683290827!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/script1.js"></script>
+</body>
+</html>

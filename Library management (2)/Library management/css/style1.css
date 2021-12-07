@@ -1,0 +1,11 @@
+body{
+    background-image: url(../images/home1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-style: italic;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
